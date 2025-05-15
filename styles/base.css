@@ -149,17 +149,13 @@ footer {
 #foot {
     text-align: center;
     color:white;
-    display: grid;
-    grid-template: 1fr 1fr / 1fr;
+    display: flex;
+    justify-content: center;
     margin: 0;
 }
 
-#lastmodified {
-    color: rgb(238, 255, 6);
-}
-
 #date {
-    color: white;
+    color: rgb(251, 255, 0);
     display: flex;
     justify-content: center;
     margin: 0;

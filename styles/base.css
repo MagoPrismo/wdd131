@@ -1,0 +1,155 @@
+:root {
+    --heading-background-color: #bbc6ca;
+    --heading-text-color: #F0F0C9;
+    --heading-font: "Rowdies";
+    --padding: 1rem;
+    --border: 1px solid #00000093;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+p {
+    font-family: "Open Sans";
+}
+
+h1 {
+    font-family: "Rowdies";
+    text-align: center;
+    background-color: rgb(104, 104, 219);
+    padding: 1rem;
+    margin: 0;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: rgb(48, 48, 141);
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(13, 13, 77);
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+}
+
+.active {
+    color: yellow;
+}
+
+main {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.sub-title {
+    font-family: "Rowdies";
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+}
+
+#subt {
+    background-color:rgb(123, 123, 201);
+    border-radius: 6px;
+}
+
+.profile {
+    display: grid;
+    grid-template: 1fr / 70% 30%;
+    gap: 2rem;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#aboutme {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 0.5fr;
+    gap: 9px;
+    align-items: start;
+    justify-content: center;
+}
+
+#column1 {
+    grid-row: span 2;
+}
+
+#brazilflag {
+    width: 70%;
+    height: auto;
+    padding: 1rem;
+    align-self: center;
+}
+
+#imgbox {
+    display: flex;
+    justify-content: center;
+}
+
+#me {
+    width: 60%;
+    height: auto;
+    margin: 1rem;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#country {
+    display: grid;
+    grid-template: 1fr / 0.4fr 0.6fr;
+    gap: 3px;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 9px;
+    background-color:rgb(204, 204, 231);
+}
+
+footer {
+    font-family: "Open Sans";
+    display: grid;
+    grid-template-columns: 1fr 1fr / 1fr;
+    border-top: 1px solid #000000;
+    padding: 1rem;
+    background-color:rgb(48, 48, 141);
+}
+
+#foot {
+    text-align: center;
+    color:white;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    margin: 0;
+}
+
+#lastmodified {
+    color: rgb(238, 255, 6);
+}
+
+#date {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}

@@ -71,7 +71,7 @@ figcaption {
 
 figure {
     margin: 0 auto;
-    padding: 5px;
+    text-align: center;
 }
 
 a {

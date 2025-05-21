@@ -15,3 +15,10 @@ hambutton.addEventListener('click', () =>
     mainnav.classList.toggle('show');
     hambutton.classList.toggle('show');
 });
+
+const screenSize = window.innerWidth;
+
+if (screenSize >= 500) {
+    mainnav.classList.toggle('show');
+    hambutton.classList.toggle('show');
+}

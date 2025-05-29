@@ -1,0 +1,64 @@
+/** global varibles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-blue: rgb(7, 7, 112);
+    --color-red: rgb(153, 0, 0);
+    --rowdies: "Rowdies", sans-serif;
+    --roboto: "Roboto, sans-serif";
+    /* mobile view */
+    --h1: 2rem;
+    --h2: 1.5rem;
+    --p: 1.125rem;
+    --b: 1rem;
+    --pad5: 5px;
+    --pad10: 10px;
+    --pad15: 15px;
+
+}
+
+/** structure of html **/
+
+header {
+    background-color: var(--color-blue);
+    color: white;
+    margin: 0;
+    padding: var(--pad5);
+    text-align: center;
+    font-family: var(--rowdies);
+    font-size: var(--h1);
+    border-bottom: var(--pad10) solid var(--color-red);
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: var(--color-red);
+    color: white;
+    padding: var(--pad5);
+    font-size: var(--p);
+    font-family: var(--roboto);
+    border-top: var(--pad10) solid var(--color-blue);
+}
+
+/* elements */
+ 
+.hero {
+    display: flex;
+    justify-content: center;
+}
+
+.hero img {
+    max-width: 380px;
+    height: auto;
+}
+
+.label {
+    text-align: center;
+    padding: var(--pad5);
+}

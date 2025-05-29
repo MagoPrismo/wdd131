@@ -10,11 +10,12 @@
     --color-blue: rgb(7, 7, 112);
     --color-red: rgb(153, 0, 0);
     --rowdies: "Rowdies", sans-serif;
-    --roboto: "Roboto, sans-serif";
+    --roboto: "Roboto", sans-serif;
+    --open-sans: "Open Sans, sans-serif";
     /* mobile view */
     --h1: 2rem;
     --h2: 1.5rem;
-    --p: 1.125rem;
+    --p: 1rem;
     --b: 1rem;
     --pad5: 5px;
     --pad10: 10px;
@@ -40,25 +41,56 @@ footer {
     text-align: center;
     background-color: var(--color-red);
     color: white;
-    padding: var(--pad5);
-    font-size: var(--p);
-    font-family: var(--roboto);
+    padding: var(--pad10);
     border-top: var(--pad10) solid var(--color-blue);
 }
 
 /* elements */
- 
+
+p {
+    font-family: var(--roboto);
+    font-size: var(--p);
+}
+
+h2 {
+    font-family: var(--rowdies);
+    font-size: var(--h2);
+}
+
+/* classes */
+
 .hero {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .hero img {
-    max-width: 380px;
+    max-width: 375px;
     height: auto;
 }
 
-.label {
-    text-align: center;
+.labels {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     padding: var(--pad5);
+}
+
+.label {
+    display: block;
+}
+
+/* id */
+
+#data, #weather {
+    display: grid;
+    grid-template: 0.5fr 1fr / 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: var(--pad10);
 }

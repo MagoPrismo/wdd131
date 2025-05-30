@@ -80,7 +80,21 @@ h2 {
 }
 
 .label {
-    display: block;
+    display: flex;
+    flex-flow: column;
+}
+
+.label div {
+    display: grid;
+    grid-template-columns: 2fr 3fr; 
+    font-family: var(--roboto);
+    font-size: var(--p);
+    text-align: left;
+}
+
+.lb {
+    font-weight: bold;
+    justify-self: end;
 }
 
 /* id */

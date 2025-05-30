@@ -9,6 +9,7 @@
 :root {
     --color-blue: rgb(7, 7, 112);
     --color-red: rgb(153, 0, 0);
+    --bg-color: rgba(199, 81, 81, 0.096);
     --rowdies: "Rowdies", sans-serif;
     --roboto: "Roboto", sans-serif;
     --open-sans: "Open Sans, sans-serif";
@@ -75,7 +76,7 @@ h2 {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     padding: var(--pad5);
 }
 
@@ -105,6 +106,8 @@ h2 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    padding: var(--pad10);
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    padding: var(--pad15);
+    width: 100%;
+    background-color: var(--bg-color);
 }

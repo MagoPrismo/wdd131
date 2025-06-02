@@ -7,8 +7,8 @@ document.getElementById("lastModified").textContent = document.lastModified;
 
 //code for the hamburguer menu
 
-const mainnav = document.querySelector('.navigation')
-const hambutton = document.querySelector('#menu')
+const mainnav = document.querySelector('.navigation');
+const hambutton = document.querySelector('#menu');
 
 hambutton.addEventListener('click', () =>
 {
@@ -101,11 +101,12 @@ const temples = [
   ];
 
 // population //
+page.innerHTML = "Home";
+createTempleCard(temples);
 
-createTempleCard();
-
-function createTempleCard() {
-    temples.forEach(temple => {
+function createTempleCard(filteredTemples) {
+    document.querySelector(".temple-img").innerHTML = "";
+    filteredTemples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");
         let location = document.createElement("p");
@@ -131,4 +132,41 @@ function createTempleCard() {
         
     })
 }
+
 // filter functions //
+
+const Homebutton = document.querySelector('#home');
+const Oldbutton = document.querySelector('#old');
+const Newbutton = document.querySelector('#new');
+const Largebutton = document.querySelector('#large');
+const Smallbutton = document.querySelector('#small');
+
+Homebutton.addEventListener('click', () => {
+    createTempleCard(temples);
+    page.innerHTML = "Home";
+}
+)
+
+Oldbutton.addEventListener('click', () => {
+    let OldTemp = temples.filter(temple => temple.dedicated.slice(0,4) <= "1900");
+    createTempleCard(OldTemp);
+    page.innerHTML = "Old";
+})
+
+Newbutton.addEventListener('click', () => {
+    let NewTemp = temples.filter(temple => temple.dedicated.slice(0,4) >= "2000");
+    createTempleCard(NewTemp);
+    page.innerHTML = "New";
+})
+
+Largebutton.addEventListener('click', () => {
+    let LargeTemp = temples.filter(temple => temple.area >= "90000");
+    createTempleCard(LargeTemp);
+    page.innerHTML = "Large";
+})
+
+Smallbutton.addEventListener('click', () => {
+    let SmallTemp = temples.filter(temple => temple.area <= "10000");
+    createTempleCard(SmallTemp);
+    page.innerHTML = "Small";
+})

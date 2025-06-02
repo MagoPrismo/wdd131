@@ -82,10 +82,10 @@ img {
     display: grid;
     grid-template-columns: max-content;
     gap: 1rem;
+    justify-content: center;
 }
 
 section {
-    margin: 0 auto;
     padding: 10px;
     text-align: start;
     background-color:rgba(0, 0, 0, 0.719);
@@ -93,7 +93,6 @@ section {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
-    justify-content: center;
     border-radius: 6px;
 }
 
@@ -216,5 +215,10 @@ li {
 
     .navigation a {
         padding: 1rem;
+    }
+
+    img {
+        width: 300px;
+        height: auto;
     }
 }

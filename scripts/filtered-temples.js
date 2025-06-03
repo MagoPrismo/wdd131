@@ -98,6 +98,30 @@ const temples = [
         imageUrl:
         "https://churchofjesuschristtemples.org/assets/img/temples/draper-utah-temple/draper-utah-temple-14077.jpg"
       },
+      {
+        templeName: "Ogden Utah",
+        location: "Ogden, Utah, United States",
+        dedicated: "1969, September, 8",
+        area: 112232,
+        imageUrl:
+        "https://churchofjesuschristtemples.org/assets/img/temples/ogden-utah-temple/ogden-utah-temple-4173.jpg"
+      },
+      {
+        templeName: "Brasilia Brazil",
+        location: "Brasilia, Brazil",
+        dedicated: "2023, September, 17",
+        area: 25000,
+        imageUrl:
+        "https://churchofjesuschristtemples.org/assets/img/temples/brasilia-brazil-temple/brasilia-brazil-temple-39204.jpg"
+      },
+      {
+        templeName: "Kirtland Ohio",
+        location: "Kirtland, Ohio, United States",
+        dedicated: "1836, March, 27",
+        area: 15000,
+        imageUrl:
+        "https://churchofjesuschristtemples.org/assets/img/temples/kirtland-temple/kirtland-temple-59480.jpg"
+      },
   ];
 
 // population //

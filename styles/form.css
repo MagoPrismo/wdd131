@@ -1,0 +1,97 @@
+/** global varibles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-blue: rgb(0, 0, 0);
+    --color-red: rgb(41, 41, 41);
+    --bg-color: rgba(141, 141, 141, 0.459);
+    --rowdies: "Rowdies", sans-serif;
+    --roboto: "Roboto", sans-serif;
+    --open-sans: "Open Sans, sans-serif";
+    /* mobile view */
+    --h1: 1.25rem;
+    --h2: 1rem;
+    --p: 0.75rem;
+    --b: 0.5rem;
+    --pad5: 5px;
+    --pad10: 10px;
+    --pad15: 15px;
+    /* desktop view */
+    --pd: 0.615rem; 
+    --h2d: 1rem;
+
+}
+
+/** structure of html **/
+
+main {
+    padding: var(--pad5);
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--color-blue);
+    color: white;
+    margin: 0;
+    padding: var(--pad15);
+    text-align: center;
+    font-family: var(--rowdies);
+    font-size: var(--h1);
+    border-bottom: var(--pad10) solid var(--color-red);
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: var(--color-red);
+    color: white;
+    padding: var(--pad10);
+    border-top: var(--pad10) solid var(--color-blue);
+}
+
+/** elements **/
+
+p {
+    font-size: var(--p);
+}
+
+fieldset {
+    padding: var(--pad15);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--pad5);
+}
+
+input[type="textarea"] {
+    width: 100%;
+    min-height: 120px;
+    resize: vertical;
+}
+/** main elements **/
+
+#stars {
+    display: grid;
+    grid-template: 1fr 1fr / repeat(5, 1fr);
+    text-align: center;
+}
+
+#required, #optional {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--pad15);
+}
+
+#checks, #textBox, #name {
+    display: grid;
+    grid-template-columns: 1fr;
+}

@@ -38,7 +38,7 @@ const products = [
 function createProduct(products) {
     products.forEach(product => {
         let card = document.createElement('option');
-        let name = document.createElement('h3');
+        let name = document.createElement('p');
 
         name.textContent = product.name;
         card.setAttribute('name', name);

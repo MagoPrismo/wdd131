@@ -38,14 +38,37 @@ const products = [
 function createProduct(products) {
     products.forEach(product => {
         let card = document.createElement('option');
-        let name = product.name;
+        let name = document.createElement('h3');
 
+        name.textContent = product.name;
         card.setAttribute('name', name);
         card.setAttribute('value', name);
-        card.textContent = name;
+        card.appendChild(name);
 
         document.querySelector('#product-name').appendChild(card);
     }) 
 }
 
 createProduct(products);
+
+//counter//
+
+function counter() {
+  const STORAGE_KEY = 'reviewsCompleted';
+
+  let reviewsCount = localStorage.getItem(STORAGE_KEY);
+
+  if (reviewsCount === null) {
+    reviewsCount = 0;
+  } else {
+    reviewsCount = parseInt(reviewsCount, 10);
+  }
+
+  reviewsCount++;
+
+  //localStorage.getItem(STORAGE_KEY, reviewsCount);//
+
+  //document.getElementById('reviewCounter').textContent = reviewsCount;//
+}
+
+counter();

@@ -1,17 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review Concluído</title>
+    <title>WDD 131 – Dynamic Web Fundamentals - Silas Gomes</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Silas Gomes - Product Review page: This is a page after the submition process and the counter">
+    <meta name="author"  content="silas gomes neto">
+    <!---fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--the order matters-->
+    <link rel="stylesheet" href="styles/form.css">
+    <!--js-->
+    <script src="scripts/form.js" defer></script>
+
 </head>
 <body>
-    <h1>Obrigado pelo seu review!</h1>
-    <p>Seu review foi enviado com sucesso.</p>
-    <p>Total de reviews concluídos por você: <span id="reviewCounter">0</span></p>
-
-    <script>
-        // O JavaScript para o contador virá aqui
-    </script>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <h1>Thank you for your review!</h1>
+        <p>Your review has been sent succesfully.</p>
+        <p>Total reviews completed by you: <span id="reviewCounter">0</span></p>
+        <a href="form.html">Send another review!</a>
+    </main>
+    <footer>
+        <p id="foot">&copy; <span id="year"></span> | Silas Gomes | Brazil</p>
+        <p id="date">Last update:&nbsp;<span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>

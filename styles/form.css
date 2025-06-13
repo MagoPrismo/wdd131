@@ -29,6 +29,10 @@
 
 /** structure of html **/
 
+body {
+    background-color:rgb(240, 240, 240);
+}
+
 main {
     padding: var(--pad5);
     width: 100%;
@@ -60,10 +64,13 @@ footer {
 
 p {
     font-size: var(--p);
+    font-family: var(--open-sans);
 }
 
 fieldset {
     padding: var(--pad15);
+    border-radius: 6px;
+    background-color:rgba(141, 141, 141, 0.411);
 }
 
 form {
@@ -77,6 +84,33 @@ input[type="textarea"] {
     min-height: 120px;
     resize: vertical;
 }
+
+label {
+    font-family: var(--rowdies);
+}
+
+input[type="submit"] {
+    background-color:rgb(0, 0, 0);
+    color:blanchedalmond;
+    font-family: var(--roboto);
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(240, 240, 240);
+    color:rgb(0, 0, 0);
+    font-family: var(--rowdies);
+}
+
+input[type="text"], input[type="date"], select, textarea {
+    border-radius: 6px;
+    font-family: var(--open-sans);
+}
+
+input[type="date"] {
+    width: 30%;
+    text-align: center;
+}
+
 /** main elements **/
 
 #stars {
@@ -94,4 +128,41 @@ input[type="textarea"] {
 #checks, #textBox, #name {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+
+@media screen and (min-width: 600px) {
+    body {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    header, footer {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    main {
+        max-width: 50%;
+    }
+
+    header {
+        text-align: start;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        height: 100%;
+        font-size: var(--h2);
+    }
+
+    #submitbutton {
+        justify-self: center;
+    }
+
+    input[type="text"] {
+        max-width: 70%;
+    }
+
 }

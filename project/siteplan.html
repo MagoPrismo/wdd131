@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>damentals - Silas Gomes</title>
-    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Silas Gomes - Picture album: This is a page to use as a gallery of photos of temples, but using filters">
+    <title>Coelho's Restaurant - Silas Gomes</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Silas Gomes - Project Plan: This is a page to plan and prepare for the site project about a restaurant">
     <meta name="author"  content="silas gomes neto">
     <!---fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,11 +12,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
     <!--the order matters-->
-    <link rel="stylesheet" href="#">
-    <!--js-->
-    <script src="#" defer></script>
+    <!--js and css-->
+    <link rel="stylesheet" href="siteplan.css">
+    <script src="siteplan.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <div id="header">
+            <img src="logo.png" alt="logo" id="logo">
+            <h1>Coelho's Restaurant</h1>
+            <p>This name represents the surname of the family that runs the restaurant focused on traditional foods.</p>
+        </div>
+    </header>
+    <main>
+        <h2 id="subtitle">Overview</h2>
+        <div class="content">
+            <h3>Purpose</h3>
+            <p>The site will be used to present the restaurant, and also to order and make a reservation. This will be used to give some suggestions about what to order too.</p>
+        </div>
+        <div class="content">
+            <h3>Scenarios</h3>
+            <p>* What is the special offer and recomendation for today?</p>
+            <p>* How can I contact Coelho's and make my order?</p>
+            <p>* Where is their contact information?</p>
+        </div>
+        <div class="content">
+            <h3>Color Schema</h3>
+            <p>#e8e8ee: color for the body background and light words with dark bg.</p>
+            <p>#000000: color for the header and footer background, and for some details.</p>
+            <p>#07002e8f: color to highlight some parts with a dark background.</p>
+        </div>
+        <div class="content">
+            <h3>Typography</h3>
+            <p id="t1">Rowdies for heading and titles, such as in h1</p>
+            <p id="t1">Roboto for subtitles, such as in h2 and h3</p>
+            <p id="t1">Open-sans for pagraphs and simple texts, such as in p or label</p>
+        </div>
+        <div class="content">
+            <h3>Wireframe</h3>
+            <p>Text</p>
+        </div>
+    </main>
+    <footer>
+        <p id="foot">&copy; <span id="year"></span> | Silas Gomes | Brazil</p>
+        <p id="date">Last update:&nbsp;<span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>

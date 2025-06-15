@@ -83,6 +83,10 @@ p {
     font-family: var(--open-sans);
 }
 
+a {
+    color: rgb(13, 22, 150);
+}
+
 /** blocks **/
 
 .content {
@@ -108,4 +112,24 @@ p {
 
 #subtitle {
     padding: var(--pad10);
+}
+
+#t1 {
+    font-size: var(--h1);
+    font-family: var(--rowdies);
+}
+
+#t2 {
+    font-size: var(--h3);
+    font-family: var(--roboto);
+}
+
+#t3 {
+    font-size: var(--p);
+    font-family: var(--open-sans);
+}
+
+#wireframe {
+    width: 100%;
+    height: auto;
 }

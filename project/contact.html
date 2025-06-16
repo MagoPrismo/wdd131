@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Dynamic Web Fundamentals - Silas Gomes</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Silas Gomes - Product Review Form: This is a page for users leave their review about some product">
+    <meta name="author"  content="silas gomes neto">
+    <!---fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--the order matters-->
+    <link rel="stylesheet" href="styles/form.css">
+    <!--js-->
+    <script src="scripts/form.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <fieldset id="required">
+                <div class="box" id="Pname">
+                    <label>Product Name</label>
+                    <select id="product-name" name="product-name" required>
+                        <option value="" disabled selected>-- choose a product --</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label>Overall Rating</label>
+                    <div id="stars">
+                        <label for="star1" title="terrible">&star;</label>
+                        <label for="star2" title="bad">&star;&star;</label>
+                        <label for="star3" title="ok">&star;&star;&star;</label>
+                        <label for="star4" title="good">&star;&star;&star;&star;</label>
+                        <label for="star5" title="excellent">&star;&star;&star;&star;&star;</label>
+
+                        <input type="radio" id="star1" name="rating" value="1" required/>
+                        <input type="radio" id="star2" name="rating" value="2" required/>
+                        <input type="radio" id="star3" name="rating" value="3" required/>
+                        <input type="radio" id="star4" name="rating" value="4" required/>
+                        <input type="radio" id="star5" name="rating" value="5" required/>
+                    </div>
+                </div>
+                <div class="box" id="dateBox">
+                    <label>Date of Installation <input type="date" name="installationdate" id="date" required/></label>
+                </div>
+            </fieldset>
+            <fieldset id="optional">
+                <div class="box">
+                    <label>Witch features did you find useful in the product? (Check all that apply)</label>
+                    <div id="checks">
+                        <label><input type="checkbox" name="durability" id="durability" value="yes"/>Durability</label>
+                        <label><input type="checkbox" name="Ease of Use" id="Ease of Use" value="yes"/>Ease of Use</label>
+                        <label><input type="checkbox" name="Performance" id="Performance" value="yes"/>Performance</label>
+                        <label><input type="checkbox" name="Design" id="Design" value="yes"/>Design</label>
+                    </div>
+                </div>
+                <div class="box" id="textBox">
+                    <label>Written Review (Optional)</label>
+                    <textarea id="text" name="textarea" rows="10" col="40" placeholder="Type here"></textarea>
+                </div>
+                <div id="name">
+                    <label>Your Name (Optional)</label>
+                    <input type="text" name="username" placeholder="First and/or Last Name here"/>
+                </div>
+            </fieldset>
+            <input type="submit" value="Send my Review" id="submitbutton"/>
+        </form>
+    </main>
+    <footer>
+        <p id="foot">&copy; <span id="year"></span> | Silas Gomes | Brazil</p>
+        <p id="date">Last update:&nbsp;<span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

@@ -15,7 +15,7 @@ const dishes = [
         category: "Meats",
         available: true,
         suggestedPairings: ["Carreteiro Rice", "Egg Farofa", "Vinaigrette"],
-        imageUrl: "https://media.istockphoto.com/id/1317622457/pt/foto/barbecue-picanha-meat-cut-on-wooden-board.jpg?s=612x612&w=0&k=20&c=u3EiEVd_PwewQVmlZGMinjqHtG8MkBJqlv2YWzLrAL0=" // Replace with actual URLs
+        imageUrl: "https://media.istockphoto.com/id/1363601737/pt/foto/grilled-top-sirloin-or-cup-rump-beef-meat-steak-on-marble-board-black-background-top-view.jpg?s=1024x1024&w=is&k=20&c=ctYEFf8UQBFh4NxX8wiSTwr8aPKt-137E5uu-rMZ-Hk=" // Replace with actual URLs
     },
     {
         dishName: "Slow-Cooked Beef Ribs",
@@ -24,7 +24,7 @@ const dishes = [
         category: "Meats",
         available: true,
         suggestedPairings: ["French Fries", "Fried Cassava"],
-        imageUrl: "https://media.istockphoto.com/id/1317622457/pt/foto/barbecue-picanha-meat-cut-on-wooden-board.jpg?s=612x612&w=0&k=20&c=u3EiEVd_PwewQVmlZGMinjqHtG8MkBJqlv2YWzLrAL0="
+        imageUrl: "https://media.istockphoto.com/id/1257628760/pt/foto/korean-braised-pork-ribs-with-red-pepper-flakes-cherry-tomato-and-parsley.jpg?s=1024x1024&w=is&k=20&c=SrtmktG8NvmpwqeaK3gKr5WgJhbI_SpAeaJRanA6BbU="
     },
     {
         dishName: "Garlic Fried Chicken",
@@ -33,7 +33,7 @@ const dishes = [
         category: "Appetizers",
         available: true,
         suggestedPairings: ["Lemon", "House Sauce"],
-        imageUrl: "https://media.istockphoto.com/id/1317622457/pt/foto/barbecue-picanha-meat-cut-on-wooden-board.jpg?s=612x612&w=0&k=20&c=u3EiEVd_PwewQVmlZGMinjqHtG8MkBJqlv2YWzLrAL0="
+        imageUrl: "https://media.istockphoto.com/id/1348674992/pt/foto/honey-soy-chicken-wings.jpg?s=1024x1024&w=is&k=20&c=0qchH-q27joSm1FqlJLhIRapp1LodLAPfOxarwr0DLQ="
     },
     {
         dishName: "Grilled Salmon with Vegetables",
@@ -42,7 +42,7 @@ const dishes = [
         category: "Fish",
         available: true,
         suggestedPairings: ["White Rice", "Mashed Potatoes"],
-        imageUrl: "https://media.istockphoto.com/id/1317622457/pt/foto/barbecue-picanha-meat-cut-on-wooden-board.jpg?s=612x612&w=0&k=20&c=u3EiEVd_PwewQVmlZGMinjqHtG8MkBJqlv2YWzLrAL0="
+        imageUrl: "https://media.istockphoto.com/id/175028181/pt/foto/filete-de-salm%C3%A3o-com-legumes.jpg?s=1024x1024&w=is&k=20&c=5IvGAIygZTB08XwSGH-4grAMJdxYkkqmXCvzpM4gyLI="
     },
     {
         dishName: "Chicken Parmigiana",
@@ -51,7 +51,7 @@ const dishes = [
         category: "Classic Dishes",
         available: true,
         suggestedPairings: ["White Rice", "Potato Sticks"],
-        imageUrl: "https://media.istockphoto.com/id/1317622457/pt/foto/barbecue-picanha-meat-cut-on-wooden-board.jpg?s=612x612&w=0&k=20&c=u3EiEVd_PwewQVmlZGMinjqHtG8MkBJqlv2YWzLrAL0="
+        imageUrl: "https://media.istockphoto.com/id/506992668/pt/foto/frango-parmes%C3%A3o-cozido-em-molho-de-tomate-e-queijo-mozzarella.jpg?s=1024x1024&w=is&k=20&c=Nk4pgoOaGA_tFtTxhoC6cGmkkhjTAllJ6vpwzBRAIAg="
     },
     {
         dishName: "Complete Feijoada",
@@ -61,7 +61,7 @@ const dishes = [
         available: false, // Example of a dish not available every day
         availabilityDays: ["Wednesday", "Saturday"],
         suggestedPairings: ["Sautéed Collard Greens", "Farofa", "Orange Slices"],
-        imageUrl: "https://media.istockphoto.com/id/1317622457/pt/foto/barbecue-picanha-meat-cut-on-wooden-board.jpg?s=612x612&w=0&k=20&c=u3EiEVd_PwewQVmlZGMinjqHtG8MkBJqlv2YWzLrAL0="
+        imageUrl: "https://media.istockphoto.com/id/1313384844/pt/foto/feijoada-a-typical-brazilian-food.jpg?s=1024x1024&w=is&k=20&c=noFzgUURCXD7vN29G5NczCc_D_J7PCwAMnCnnV67FcI="
     },
     {
         dishName: "Carreteiro Rice",
@@ -69,7 +69,7 @@ const dishes = [
         price: 30.00,
         category: "Sides",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1317622457/pt/foto/barbecue-picanha-meat-cut-on-wooden-board.jpg?s=612x612&w=0&k=20&c=u3EiEVd_PwewQVmlZGMinjqHtG8MkBJqlv2YWzLrAL0="
+        imageUrl: "https://media.istockphoto.com/id/1352866089/pt/foto/arroz-de-carreteiro-brazilian-rice-with-dried-meat-close-up-in-the-bowl-horizontal-top-view.jpg?s=1024x1024&w=is&k=20&c=TcxeaEG0od2pbVkL0ngYVcZI2r5T3x6VlCnjn8rEsm0="
     }
 ];
 
@@ -86,8 +86,8 @@ function createcardfood(foods) {
 
         name.textContent = food.dishName;
         description.innerHTML = `<span class="label"></span> ${food.description}`;
-        price.innerHTML = `<span class="label">Price:</span> $${food.price}.00`;
-        category.innerHTML = `<span class="label">Category:</span> ${food.category}`;
+        price.innerHTML = `<span class="label"><strong>Price:</strong></span> $${food.price.toFixed(2)}`;
+        category.innerHTML = `<span class="label"><strong>Category:</strong></span> ${food.category}`;
 
         img.setAttribute('src', food.imageUrl);
         img.setAttribute('alt', `${food.dishName}`);

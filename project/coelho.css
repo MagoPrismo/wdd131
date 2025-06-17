@@ -7,7 +7,7 @@
 }
 
 :root {
-    --color1: #000000;
+    --color1: #c06f05;
     --color2: #e8e8ee;
     --color3: #71707536;
     --rowdies: "Rowdies", sans-serif;
@@ -62,7 +62,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    color: var(--color2);
+    color: white;
     padding: var(--pad15);
     margin: 50px;
     width: 100%;
@@ -75,17 +75,18 @@ main {
 
 footer {
     background-color: var(--color1);
-    color: var(--color2);
+    color: black;
     width: 100%;
     text-align: center;
     padding: var(--pad10);
+    border-top: 5px solid black;
 }
 
 /** elements **/
 
 h1 {
     font-size: var(--h1);
-    font-family: var(--rowdies);
+    font-family: var(--roboto);
 }
 
 h2 {
@@ -106,9 +107,13 @@ p {
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background-color:rgba(0, 0, 0, 0.925);
+    background-color: var(--color1);
     padding: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
     border-radius: 6px;
+    font-family: var(--roboto);
+    font-size: var(--h2);
 }
 
 li {
@@ -124,6 +129,14 @@ section {
     border-radius: 6px;
     width: 80%;
     padding: 10px;
+}
+
+form, #contactinfo {
+    margin: 10px;
+    padding: 15px;
+    background-color:rgba(255, 255, 255, 0.5);
+    color:rgb(0, 0, 0);
+    border-radius: 6px;
 }
 
 /** blocks **/
@@ -142,9 +155,17 @@ section {
     gap: 15px;
 }
 
+.navigation a:hover,
+.avigation a:active, 
+.navigation2 a:hover,
+.navigation2 a:active {
+    color: var(--color1);
+    background-color:rgb(255, 255, 255);
+}
+
 .navigation2 {
-    flex-flow: wrap row;
-    justify-content: space-around;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
 }
 
 .dishes {
@@ -152,6 +173,23 @@ section {
     grid-template-columns: 1fr;
     gap: 10px;
     padding: 10px;
+}
+
+.social {
+    background: none;
+}
+
+.button {
+    display: block;
+    width: 35%;
+    justify-self: center;
+
+}
+
+.button2 {
+    display: inline-block;
+    width: 90%;
+    justify-self: center;
 }
 
 #imgmenu {
@@ -163,12 +201,13 @@ section {
 }
 
 #menu {
-    background-color: black;
+    background-color: var(--color1);
     margin: 0;
     display: grid;
     grid-template: 0.5fr 0.5fr / 0.2fr 0.8fr;
     align-items: center;
     gap: 10px;
+    border-bottom: 5px solid black;
 }
 
 #hidden-menu {
@@ -180,7 +219,7 @@ section {
 }
 
 #logo {
-    width: 100px;
+    width: 125px;
     height: auto;
     border-radius: 6px;
     grid-row: 1 /span 2;
@@ -196,6 +235,16 @@ section {
 #foot, #date {
     font-family: var(--roboto);
     font-size: var(--b);
+}
+
+#sociallinks img, .infobox img {
+    width: 3%;
+    height: auto;
+}
+
+#contactsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 @media screen and (min-width: 500px) {

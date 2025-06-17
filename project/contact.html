@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 – Dynamic Web Fundamentals - Silas Gomes</title>
-    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Silas Gomes - Product Review Form: This is a page for users leave their review about some product">
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Silas Gomes - Contact page: This is a page for users make a reservation or get in touch with the restaurant">
     <meta name="author"  content="silas gomes neto">
     <!---fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,65 +12,109 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
     <!--the order matters-->
-    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="coelho.css">
     <!--js-->
-    <script src="scripts/form.js" defer></script>
+    <script src="coelho.js" defer></script>
 
 </head>
 <body>
-    <header>
-        <h1>Product Review</h1>
+    <header id="menu">
+        <img id="logo" src="images/logo.png" alt="logo">
+        <h1 id="title">Coelho's</h1>
+        <a id="hidden-menu" href="#"></a>
+        <nav>
+            <ul class="navigation2">
+                <li><a id="home" href="home.html">Home</a></li>
+                <li><a id="cardapio" href="menu.html">Menu</a></li>
+                <li><a id="contact" href="contact.html">Contact Us</a></li>
+            </ul>      
+        </nav>
     </header>
-    <main>
-        <form action="review.html" method="get">
-            <fieldset id="required">
-                <div class="box" id="Pname">
-                    <label>Product Name</label>
-                    <select id="product-name" name="product-name" required>
-                        <option value="" disabled selected>-- choose a product --</option>
-                    </select>
-                </div>
-                <div class="box">
-                    <label>Overall Rating</label>
-                    <div id="stars">
-                        <label for="star1" title="terrible">&star;</label>
-                        <label for="star2" title="bad">&star;&star;</label>
-                        <label for="star3" title="ok">&star;&star;&star;</label>
-                        <label for="star4" title="good">&star;&star;&star;&star;</label>
-                        <label for="star5" title="excellent">&star;&star;&star;&star;&star;</label>
-
-                        <input type="radio" id="star1" name="rating" value="1" required/>
-                        <input type="radio" id="star2" name="rating" value="2" required/>
-                        <input type="radio" id="star3" name="rating" value="3" required/>
-                        <input type="radio" id="star4" name="rating" value="4" required/>
-                        <input type="radio" id="star5" name="rating" value="5" required/>
-                    </div>
-                </div>
+    <main id="contactsection">
+        <form action="inputs.html" method="get">
+            <div id="leadinfo">
+                <h2>Send Us a message!</h2>
+                <hr>
                 <div class="box" id="dateBox">
-                    <label>Date of Installation <input type="date" name="installationdate" id="date" required/></label>
+                    <label>Date of Reservation <input type="date" name="installationdate" id="date" required/></label>
                 </div>
-            </fieldset>
-            <fieldset id="optional">
-                <div class="box">
-                    <label>Witch features did you find useful in the product? (Check all that apply)</label>
-                    <div id="checks">
-                        <label><input type="checkbox" name="durability" id="durability" value="yes"/>Durability</label>
-                        <label><input type="checkbox" name="Ease of Use" id="Ease of Use" value="yes"/>Ease of Use</label>
-                        <label><input type="checkbox" name="Performance" id="Performance" value="yes"/>Performance</label>
-                        <label><input type="checkbox" name="Design" id="Design" value="yes"/>Design</label>
+                <div id="leadinput">
+                    <div id="namemail">
+                        <div class="textinput">
+                            <label for="fullname">Name: <input type="text" name="fullname" placeholder="Full Name" id="fullname"></label>                            
+                        </div>
+                        <div class="textinput">
+                            <label for="email">Email: <input type="email" name="email" placeholder="Type here" id="email"></label>                            
+                        </div>
+                    </div>
+                    <p class="subtitle">What's the topic of your message?</p>
+                    <div id="topic">
+                        <div class="radioinput">
+                            <input type="radio" name="mtype" id="reservetion">
+                            <label for="reservetion">Reservetion Question</label>
+                        </div>
+                        <div class="radioinput">
+                            <input type="radio" name="mtype" id="feedback">
+                            <label for="feedback">Feedback</label>
+                        </div>
+                        <div class="radioinput">
+                            <input type="radio" name="mtype" id="payment">
+                            <label for="payment">Payment</label>
+                        </div>
+                        <div class="radioinput">
+                            <input type="radio" name="mtype" id="help">
+                            <label for="help">Help</label>
+                        </div>
+                    </div>
+                    <div id="textbox">
+                        <p class="subtitle">Text your message below!</p>
+                        <textarea name="message" id="message" rows="9" placeholder="Type here"></textarea>
+                    </div>
+                    <div id="checkbox">
+                        <input type="checkbox" name="subscribe" id="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <div id="button">
+                        <button type="submit">Send Message</button>
                     </div>
                 </div>
-                <div class="box" id="textBox">
-                    <label>Written Review (Optional)</label>
-                    <textarea id="text" name="textarea" rows="10" col="40" placeholder="Type here"></textarea>
-                </div>
-                <div id="name">
-                    <label>Your Name (Optional)</label>
-                    <input type="text" name="username" placeholder="First and/or Last Name here"/>
-                </div>
-            </fieldset>
-            <input type="submit" value="Send my Review" id="submitbutton"/>
+            </div>
         </form>
+        <div id="contactinfo">
+            <div id="infosection">
+                <h2>Contact Information</h2>
+                <hr>
+                <div id="compinfo">
+                    <div class="infobox">
+                        <img src="images/phone.png" alt="phone">
+                        <p>(999) 999-9999</p>
+                    </div>
+                    <div class="infobox">
+                        <img src="images/mail.png" alt="mail">
+                        <p>riverfevercontact@email.com</p>
+                    </div>
+                    <div class="infobox">
+                        <img src="images/map.png" alt="map">
+                        <p>101 E Viking St, Rexburg, ID 83460, US</p>
+                    </div>
+                    <div id="iframe">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.994757808311!2d-111.78582992470119!3d43.8144681419869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03dc48a5cf%3A0x1e5534d3c38ef412!2sUniversidade%20Brigham%20Young-Idaho!5e0!3m2!1spt-PT!2sbr!4v1743865831126!5m2!1spt-PT!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <hr>
+                    <div id="sociallinks">
+                        <a href="#" class="social">
+                            <img src="images/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#" class="social">
+                            <img src="images/wx.png" alt="X">
+                        </a>
+                        <a href="#" class="social">
+                            <img src="images/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p id="foot">&copy; <span id="year"></span> | Silas Gomes | Brazil</p>

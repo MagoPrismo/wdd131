@@ -38,7 +38,7 @@ body {
     flex-flow: column;
     align-items: center;
     min-height: 100vh;
-    background-image: url('images/Gemini_Generated_Image_22aix922aix922ai.png'); /* Altere o caminho se sua imagem estiver em outro lugar */
+    background-image: url('images/Gemini_Generated_Image_22aix922aix922ai.webp'); /* Altere o caminho se sua imagem estiver em outro lugar */
     background-size: cover; /* Faz a i
     magem cobrir toda a área do elemento */
     background-position: center center; /* Centraliza a imagem */
@@ -352,6 +352,7 @@ input[type="submit"]:active {
 }
 
 @media screen and (max-width: 500px) {
+
     .button {
         font-size: 1.25rem;
         width: 50%;
@@ -388,10 +389,6 @@ input[type="submit"]:active {
         justify-content: start;
     }
 
-    .navigation2, .navigation3 {
-        display: none;
-    }
-
     #hidden-menu {
         display: flex;
     }
@@ -414,6 +411,10 @@ input[type="submit"]:active {
 
     /** menu **/
 
+    .navigation2, .navigation3 {
+        display: none;
+    }
+
     #hidden-menu::before {
         content: "≡";
         color: white;
@@ -431,9 +432,11 @@ input[type="submit"]:active {
         align-self: center;
     }
 
+
     .show {
         display: block;
         margin: 0 auto;
         text-align: center;
     }
+
 }

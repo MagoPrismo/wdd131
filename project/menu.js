@@ -52,7 +52,7 @@ const dishes = [
         category: "Meats",
         available: true,
         suggestedPairings: ["Steamed Vegetables", "Mashed Potatoes"],
-        imageUrl: "https://media.istockphoto.com/id/500130836/pt/foto/peito-de-frango-grelhado.jpg?s=1024x1024&w=is&k=20&c=N5M9J1X_G2V_J8Y_L7T_P6S_K4W_H3X_F1Z_E0A_C9B="
+        imageUrl: "https://media.istockphoto.com/id/1217760999/pt/foto/grilled-chicken-breasts-with-thyme-garlic-and-lemon-slices-on-a-grill-pan-close-up.jpg?s=1024x1024&w=is&k=20&c=A8cHNa0SQ6U3fRNykkk4d5GNSjBk3TvvcyGSSWRBya4="
     },
     {
         dishName: "Lamb Chops with Mint Sauce",
@@ -61,7 +61,7 @@ const dishes = [
         category: "Meats",
         available: true,
         suggestedPairings: ["Asparagus", "Risotto"],
-        imageUrl: "https://media.istockphoto.com/id/955219220/pt/foto/costeletas-de-cordeiro.jpg?s=1024x1024&w=is&k=20&c=L_Y_B_2E_3W_4R_6T_8P_0O_9I_7U_V_F_C_Z_X="
+        imageUrl: "https://media.istockphoto.com/id/1140193057/pt/foto/lamb-chops-served-with-yogurt-sauce-and-fresh-mint.jpg?s=1024x1024&w=is&k=20&c=oRKUZo41Nbb_mbNRKW4D0fRYUnOkNd86awAuAhXiGrI="
     },
     {
         dishName: "Pork Ribs with Barbecue Sauce",
@@ -70,7 +70,7 @@ const dishes = [
         category: "Meats",
         available: true,
         suggestedPairings: ["Coleslaw", "Corn on the Cob"],
-        imageUrl: "https://media.istockphoto.com/id/1409543168/pt/foto/barbecue-pork-ribs-on-a-wooden-board.jpg?s=1024x1024&w=is&k=20&c=L-C_1R_4T_7P_9U_0S_2A_3B_5C_6D_8E_F_G_H_I="
+        imageUrl: "https://media.istockphoto.com/id/1086140442/pt/foto/closeup-of-pork-ribs-grilled-with-bbq-sauce-and-caramelized-in-honey-tasty-snack-to-beer-on-a.jpg?s=1024x1024&w=is&k=20&c=Wtd_hdThf1bslLNn4VqFhBYZL6yzsr9VCQvcNWpJHoc="
     },
 
     // --- Fish (5 items) ---
@@ -90,7 +90,7 @@ const dishes = [
         category: "Fish",
         available: true,
         suggestedPairings: ["Broccoli", "Black Olives"],
-        imageUrl: "https://media.istockphoto.com/id/1294626155/pt/foto/bacalhau-assado-com-azeite-e-batatas-em-travessa-oval-de-vidro.jpg?s=1024x1024&w=is&k=20&c=Z_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W="
+        imageUrl: "https://media.istockphoto.com/id/1433381001/pt/foto/bacalhau-%C3%A0-gomes-de-s%C3%A1-one-of-the-most-famous-dishes-of-portuguese-cuisine.jpg?s=1024x1024&w=is&k=20&c=hx7U6SKFqTfsOYl4IDSlYwa1THk3nfLkENtqjjtz4ZA="
     },
     {
         dishName: "Shrimp Risotto",
@@ -99,7 +99,7 @@ const dishes = [
         category: "Fish",
         available: true,
         suggestedPairings: ["White Wine", "Fresh Herbs"],
-        imageUrl: "https://media.istockphoto.com/id/1325608759/pt/foto/risoto-de-camar%C3%A3o.jpg?s=1024x1024&w=is&k=20&c=Z_X_C_V_B_N_M_L_K_J_H_G_F_D_S_A_Q_W_E_R_T_Y="
+        imageUrl: "https://media.istockphoto.com/id/1475375781/pt/foto/risotto.jpg?s=1024x1024&w=is&k=20&c=zpv6WNU-gx6y_9aht4EZJSETGmBLeYW8u4GVSXIaKn0="
     },
     {
         dishName: "Tuna Steak with Sesame",
@@ -108,7 +108,7 @@ const dishes = [
         category: "Fish",
         available: true,
         suggestedPairings: ["Soy Sauce", "Ginger Salad"],
-        imageUrl: "https://media.istockphoto.com/id/1179040081/pt/foto/fil%C3%A9-de-atum-com-gergelim.jpg?s=1024x1024&w=is&k=20&c=Y_U_I_O_P_A_S_D_F_G_H_J_K_L_Z_X_C_V="
+        imageUrl: "https://media.istockphoto.com/id/1222217606/pt/foto/sesame-seed-crusted-seared-tuna-steak.jpg?s=1024x1024&w=is&k=20&c=omzjNd_W1uAvc06oaIlXMQ52s0Je04o86u2a132796k="
     },
     {
         dishName: "Moqueca Capixaba",
@@ -117,33 +117,17 @@ const dishes = [
         category: "Fish",
         available: true,
         suggestedPairings: ["White Rice", "Pirão"],
-        imageUrl: "https://media.istockphoto.com/id/1364506283/pt/foto/moqueca-capixaba-brazilian-fish-stew.jpg?s=1024x1024&w=is&k=20&c=Q_W_E_R_T_Y_U_I_O_P_A_S_D_F_G_H_J_K_L_Z_X_C_V_B_N="
+        imageUrl: "https://media.istockphoto.com/id/1326687357/pt/foto/moqueca-capixaba.jpg?s=1024x1024&w=is&k=20&c=8A_UBfWtO-GYRrIcfY8V675HF0kd4JJ8Oq7gup_pb7w="
     },
 
-    // --- Beverages (5 items) ---
+    // --- Beverages (4 items) ---
     {
         dishName: "Coca-Cola (Can)",
         description: "Coca-Cola soft drink in a can, 350ml.",
         price: 8.00,
         category: "Beverages",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1179426992/pt/foto/coca-cola-can-330ml-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=z_H0L_P_Q0_D_F-m_L7_M_C_V_J9_G6_X5_E4_T3="
-    },
-    {
-        dishName: "Guaraná Antarctica (Can)",
-        description: "Guaraná Antarctica soft drink in a can, 350ml.",
-        price: 8.00,
-        category: "Beverages",
-        available: true,
-        imageUrl: "https://media.istockphoto.com/id/1293375871/pt/foto/guarana-antarctica-can-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=y-0vB_3R_B_6Q_9E_8P_4K_1L_D_F-J_C7_X2_T1="
-    },
-    {
-        dishName: "Mineral Water (500ml)",
-        description: "Still mineral water, 500ml.",
-        price: 6.00,
-        category: "Beverages",
-        available: true,
-        imageUrl: "https://media.istockphoto.com/id/1188095147/pt/foto/plastic-bottle-of-mineral-water.jpg?s=1024x1024&w=is&k=20&c=x_U0w_Q_0D_H_E_N_M_F_R_V_Z_A_I_P_O_S="
+        imageUrl: "https://media.istockphoto.com/id/487787108/pt/foto/lata-de-coca-cola-com-gelo.jpg?s=1024x1024&w=is&k=20&c=7ytkYRo1LgXhlfWC20cOGWpgV2TzA1wQEAPevEbaSWI="
     },
     {
         dishName: "Orange Juice (Freshly Squeezed)",
@@ -151,7 +135,7 @@ const dishes = [
         price: 12.00,
         category: "Beverages",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1320490561/pt/foto/glass-of-freshly-squeezed-orange-juice-on-white-background.jpg?s=1024x1024&w=is&k=20&c=Z_X_C_V_B_N_M_L_K_J_H_G_F_D_S_A_Q_W_E_R_T_Y="
+        imageUrl: "https://media.istockphoto.com/id/452030153/pt/foto/por%C3%A7%C3%A3o-de-suco-de-laranja-fresco-feito.jpg?s=1024x1024&w=is&k=20&c=-JOtQtBhRS3A5TFnPY_xTOMsibsxwxLfLzqyikhDuS8="
     },
     {
         dishName: "Iced Tea (Lemon)",
@@ -159,7 +143,7 @@ const dishes = [
         price: 10.00,
         category: "Beverages",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1360126487/pt/foto/iced-tea-with-lemon-and-mint.jpg?s=1024x1024&w=is&k=20&c=Q_W_E_R_T_Y_U_I_O_P_A_S_D_F_G_H_J_K_L_Z_X_C_V="
+        imageUrl: "https://media.istockphoto.com/id/497892585/pt/foto/feito-em-casa-ch%C3%A1-gelado-com-lim%C3%B5es.jpg?s=1024x1024&w=is&k=20&c=XJ5MljXJ_qmgWpsrSt-jSXBf0cuetoRm9epiZr1x8LE="
     },
     {
         dishName: "Craft Beer (IPA)",
@@ -168,7 +152,7 @@ const dishes = [
         category: "Beverages",
         available: true,
         isAlcoholic: true,
-        imageUrl: "https://media.istockphoto.com/id/1206016393/pt/foto/craft-beer-ipa-glass.jpg?s=1024x1024&w=is&k=20&c=Y-H7D_0C_0B_1A_2S_3R_4Q_5P_6L_7K_8J_9I_T0="
+        imageUrl: "https://media.istockphoto.com/id/1190246079/pt/foto/cannabis-infused-amber-ale.jpg?s=1024x1024&w=is&k=20&c=g4MtkL-LztRLOZCyAEIi4e26VXsSVAbVz96nCWXbvSs="
     },
 
 
@@ -179,7 +163,7 @@ const dishes = [
         price: 18.00,
         category: "Desserts",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1297126130/pt/foto/pudim-de-leite-condensado.jpg?s=1024x1024&w=is&k=20&c=0sB_G8E3p0K3_d3Yc6f0_V3j_F-f-m0g-S6S-L4P_vY="
+        imageUrl: "https://media.istockphoto.com/id/1690798173/pt/foto/condensed-milk-pudding-or-pudim-de-leite-condensado-in-portuguese-traditional-dessert-also.jpg?s=1024x1024&w=is&k=20&c=wwDRHYH_3gHiElVQJdnhpUzhINJx2-L3Q-agJdXXpoU="
     },
     {
         dishName: "Passion Fruit Mousse",
@@ -187,7 +171,7 @@ const dishes = [
         price: 16.00,
         category: "Desserts",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1360144670/pt/foto/passion-fruit-mousse-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=Y7v4J-f-1W5T_L9c_b5H_P0E_U9_M0w_D0_P-J3A_f4="
+        imageUrl: "https://media.istockphoto.com/id/1299827971/pt/foto/passion-fruit-mousse-refreshing-dessert-with-fresh-passion-fruit-topping.jpg?s=1024x1024&w=is&k=20&c=CAIdJodL_aLVwycvx5YElfQQ2PJ8Q_YfzH_diwWcrL8="
     },
     {
         dishName: "Lemon Pie",
@@ -195,7 +179,7 @@ const dishes = [
         price: 20.00,
         category: "Desserts",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1368940827/pt/foto/delicious-lemon-tart-with-meringue.jpg?s=1024x1024&w=is&k=20&c=4oJ6E_E_X0c_F9_Q_b3V_W8_L7_R_V2_N5_A_J8_G0="
+        imageUrl: "https://media.istockphoto.com/id/606673278/pt/foto/bolo-de-queijo-de-lim%C3%A3o.jpg?s=1024x1024&w=is&k=20&c=mhT25lLTMOWhf8vgrnonPaspFpBrNmfxD_ujTtriOHY="
     },
     {
         dishName: "Brigadeiro (Brazilian Fudge Ball)",
@@ -203,7 +187,7 @@ const dishes = [
         price: 6.00,
         category: "Desserts",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1319808381/pt/foto/brigadeiro-brazilian-chocolate-truffle.jpg?s=1024x1024&w=is&k=20&c=P_O_I_U_Y_T_R_E_W_Q_A_S_D_F_G_H_J_K_L_Z_X="
+        imageUrl: "https://media.istockphoto.com/id/1653356906/pt/foto/assorted-brigadier-flat-layer-view.jpg?s=1024x1024&w=is&k=20&c=4bZmDnBg5KMqBOgqAOXmmBIHwYz6X3mHIRePaAymu5I="
     },
     {
         dishName: "Açaí Bowl with Granola",
@@ -212,7 +196,7 @@ const dishes = [
         category: "Desserts",
         available: true,
         isVegan: true,
-        imageUrl: "https://media.istockphoto.com/id/1283311822/pt/foto/a%C3%A7a%C3%AD-bowl-with-fresh-fruits.jpg?s=1024x1024&w=is&k=20&c=A_S_D_F_G_H_J_K_L_Q_W_E_R_T_Y_U_I_O_P_Z_X="
+        imageUrl: "https://media.istockphoto.com/id/1454093997/pt/foto/acai-bowl-on-the-table-with-bananas-strawberries-and-granola.jpg?s=1024x1024&w=is&k=20&c=g3BsZ-c-KRHJJs4s5OYli1n6bTO1gWh-mFzwH4Crzhs="
     },
 
     // --- Salads (5 items) ---
@@ -223,7 +207,7 @@ const dishes = [
         category: "Salads",
         available: true,
         isVegetarian: false,
-        imageUrl: "https://media.istockphoto.com/id/1149725510/pt/foto/caesars-salad-with-grilled-chicken.jpg?s=1024x1024&w=is&k=20&c=v_J0_D_R_S_T_U_V_W_X_Y_Z_A_B_C_D_E_F_G_H_I_J_K_L="
+        imageUrl: "https://media.istockphoto.com/id/534139231/pt/foto/saud%C3%A1vel-frango-grelhado-salada-c%C3%A9sar.jpg?s=1024x1024&w=is&k=20&c=XhwLwoqW2Gnw2UmDaTfmLXR9dAAkl_8ko6QclzKTigk="
     },
     {
         dishName: "Fresh Mixed Salad",
@@ -232,7 +216,7 @@ const dishes = [
         category: "Salads",
         available: true,
         isVegetarian: true,
-        imageUrl: "https://media.istockphoto.com/id/1324707198/pt/foto/fresh-mixed-green-salad-bowl-with-tomatoes-and-cucumber.jpg?s=1024x1024&w=is&k=20&c=z_0F_1E_2D_3C_4B_5A_6Z_7Y_8X_9W_0V_1U_2T_3S_4R_5Q="
+        imageUrl: "https://media.istockphoto.com/id/919666108/pt/foto/two-fresh-salad-bowls.jpg?s=1024x1024&w=is&k=20&c=_ZL5DVSUemjLH-IJOX9o1rqeYN94HNaMJoYqcei7Mc8="
     },
     {
         dishName: "Caprese Salad",
@@ -241,7 +225,7 @@ const dishes = [
         category: "Salads",
         available: true,
         isVegetarian: true,
-        imageUrl: "https://media.istockphoto.com/id/1145265401/pt/foto/salada-caprese.jpg?s=1024x1024&w=is&k=20&c=V_B_N_M_L_K_J_H_G_F_D_S_A_Q_W_E_R_T_Y_U_I_O_P="
+        imageUrl: "https://media.istockphoto.com/id/1345888788/pt/foto/caprese-salad.jpg?s=1024x1024&w=is&k=20&c=H_c44oCGt1YRYJ4Ebymf6m7-dvWI809U8FCbg1gTWNs="
     },
     {
         dishName: "Quinoa Salad with Roasted Vegetables",
@@ -250,7 +234,7 @@ const dishes = [
         category: "Salads",
         available: true,
         isVegan: true,
-        imageUrl: "https://media.istockphoto.com/id/1154699564/pt/foto/salada-de-quinoa-vegana.jpg?s=1024x1024&w=is&k=20&c=X_Y_Z_A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T="
+        imageUrl: "https://media.istockphoto.com/id/893716434/pt/foto/healhty-vegan-lunch-bowl-avocado-quinoa-sweet-potato-tomato-spinach-and-chickpeas-vegetables.jpg?s=1024x1024&w=is&k=20&c=fsQdrXG_NilGk7deZM7wt29DFglGtLp_5bRNZps-gdY="
     },
     {
         dishName: "Greek Salad",
@@ -259,7 +243,7 @@ const dishes = [
         category: "Salads",
         available: true,
         isVegetarian: true,
-        imageUrl: "https://media.istockphoto.com/id/1149725510/pt/foto/salada-grega.jpg?s=1024x1024&w=is&k=20&c=V_B_N_M_L_K_J_H_G_F_D_S_A_Q_W_E_R_T_Y_U_I_O_P="
+        imageUrl: "https://media.istockphoto.com/id/1461256163/pt/foto/feta-cheese-salad-on-wooden-table.jpg?s=1024x1024&w=is&k=20&c=wx2Obb9FgkECoaSeDbk9YwcaPnEnWVJ4ksyGLKHzPsI="
     },
 
     // --- Classic Dishes (5 items) ---
@@ -279,7 +263,7 @@ const dishes = [
         category: "Classic Dishes",
         available: true,
         suggestedPairings: ["White Rice", "Potato Sticks"],
-        imageUrl: "https://media.istockphoto.com/id/1185566373/pt/foto/strogonoff-de-carne.jpg?s=1024x1024&w=is&k=20&c=F_D_S_A_Q_W_E_R_T_Y_U_I_O_P_L_K_J_H_G_F_D_S="
+        imageUrl: "https://media.istockphoto.com/id/1460067261/pt/foto/beef-stroganoff-mushroom-rice-straw-potato.jpg?s=1024x1024&w=is&k=20&c=vbtbYMVQ41TaTaI-r2nm7S_ycFkV_1tZf3AQe_JCsQE="
     },
     {
         dishName: "Filet Mignon with Pepper Sauce",
@@ -288,7 +272,7 @@ const dishes = [
         category: "Classic Dishes",
         available: true,
         suggestedPairings: ["Gratin Potatoes", "Asparagus"],
-        imageUrl: "https://media.istockphoto.com/id/1325992928/pt/foto/fil%C3%A9-mignon-ao-molho-pepper.jpg?s=1024x1024&w=is&k=20&c=D_F_G_H_J_K_L_Z_X_C_V_B_N_M_A_S_D_F_G_H="
+        imageUrl: "https://media.istockphoto.com/id/1191425335/pt/foto/american-food-concept-grilled-pork-ribs-with-grilled-sauce-with-smoke-spices-and-rosemary.jpg?s=1024x1024&w=is&k=20&c=ugOUKTD-CP8g4Ls6YNEpyWvi9qyWGpJzBJMy7PBNOVE="
     },
     {
         dishName: "Lasagna Bolognese",
@@ -297,7 +281,7 @@ const dishes = [
         category: "Classic Dishes",
         available: true,
         suggestedPairings: ["Garlic Bread", "Red Wine"],
-        imageUrl: "https://media.istockphoto.com/id/1322079086/pt/foto/lasanha-bolonhesa.jpg?s=1024x1024&w=is&k=20&c=S_D_F_G_H_J_K_L_Z_X_C_V_B_N_M_A_Q_W_E_R_T_Y="
+        imageUrl: "https://media.istockphoto.com/id/504045128/pt/foto/lasanha-tradicionais-feitas-com-carne-picada-molho-bolonhesa.jpg?s=1024x1024&w=is&k=20&c=q2DLGpTrgITmQxIi26POqA-FhVB2EzXi9gqFP192PX0="
     },
     {
         dishName: "Spaghetti Carbonara",
@@ -306,7 +290,7 @@ const dishes = [
         category: "Classic Dishes",
         available: true,
         suggestedPairings: ["Parmesan Cheese", "White Wine"],
-        imageUrl: "https://media.istockphoto.com/id/1319766946/pt/foto/spaghetti-carbonara.jpg?s=1024x1024&w=is&k=20&c=C_V_B_N_M_L_K_J_H_G_F_D_S_A_Q_W_E_R_T_Y_U="
+        imageUrl: "https://media.istockphoto.com/id/1581084025/pt/foto/plate-with-spaghetti-carbonara-on-a-laid-table.jpg?s=1024x1024&w=is&k=20&c=fNV_AIrD_80Gk5PRZAxi3pm0iAbvgf43nH5zDEJRIb8="
     },
 
     // --- Sides (5 items) ---
@@ -324,7 +308,7 @@ const dishes = [
         price: 25.00,
         category: "Sides",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1368936657/pt/foto/french-fries-in-a-basket.jpg?s=1024x1024&w=is&k=20&c=A_S_D_F_G_H_J_K_L_Q_W_E_R_T_Y_U_I_O_P_Z_X="
+        imageUrl: "https://media.istockphoto.com/id/966934632/pt/foto/appetizing-french-fries-in-a-bowl.jpg?s=1024x1024&w=is&k=20&c=bBlj2QrYkToqxbdr9H49EktizDktKbjeNVS-p0-BqlE="
     },
     {
         dishName: "Mashed Potatoes",
@@ -332,7 +316,7 @@ const dishes = [
         price: 22.00,
         category: "Sides",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1368936657/pt/foto/mashed-potatoes-in-a-bowl.jpg?s=1024x1024&w=is&k=20&c=A_S_D_F_G_H_J_K_L_Q_W_E_R_T_Y_U_I_O_P_Z_X="
+        imageUrl: "https://media.istockphoto.com/id/1480942558/pt/foto/mashed-potato-with-parmesan-cheese-top-view-with-copy-space.jpg?s=1024x1024&w=is&k=20&c=XpSjUTSi7o6vZmi9F-ZkLAH4srz9iF4oVnuwb6bx1cI="
     },
     {
         dishName: "Sautéed Collard Greens",
@@ -340,7 +324,7 @@ const dishes = [
         price: 18.00,
         category: "Sides",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1368936657/pt/foto/sauteed-collard-greens.jpg?s=1024x1024&w=is&k=20&c=A_S_D_F_G_H_J_K_L_Q_W_E_R_T_Y_U_I_O_P_Z_X="
+        imageUrl: "https://media.istockphoto.com/id/898402322/pt/foto/homemade-organic-green-collard-greens.jpg?s=1024x1024&w=is&k=20&c=sazUmoH5_S6wlMrprBJiXtIZG9NO6C25QolvjIqFh3E="
     },
     {
         dishName: "Fried Cassava",
@@ -348,7 +332,7 @@ const dishes = [
         price: 28.00,
         category: "Sides",
         available: true,
-        imageUrl: "https://media.istockphoto.com/id/1368936657/pt/foto/fried-cassava.jpg?s=1024x1024&w=is&k=20&c=A_S_D_F_G_H_J_K_L_Q_W_E_R_T_Y_U_I_O_P_Z_X="
+        imageUrl: "https://media.istockphoto.com/id/1370995474/pt/foto/fried-cassava.jpg?s=1024x1024&w=is&k=20&c=wYm5u1MR8Wf49EMe9Y3phm4B1gaUd9A6uvx27cNBxOA="
     }
 ];
 

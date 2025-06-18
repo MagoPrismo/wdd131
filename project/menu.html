@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coelho's Restaurant - Silas Gomes</title>
-    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Silas Gomes - Project: This is the menu page for a website of a restaurant. This page is the menu of the restaurant">
+    <title>Odessa Restaurant - Silas Gomes</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Silas Gomes - Project: This is the menu page for a website of a restaurant. This page shows their offers and foods.">
     <meta name="author"  content="silas gomes neto">
     <!---fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
     <!--the order matters-->
     <!--js and css-->
     <link rel="stylesheet" href="coelho.css">
-    <script src="coelho.js" defer></script>
+    <script src="menu.js" defer></script>
 </head>
 <body>
     <header id="menu">
@@ -22,11 +22,20 @@
         <h1 id="title">Odessa | Bar & Restaurant</h1>
         <a id="hidden-menu" href="#"></a>
         <nav>
-            <ul class="navigation2">
-                <li><a class="button2" id="home" href="home.html">Home</a></li>
-                <li><a class="button2" id="cardapio" href="menu.html">Menu</a></li>
-                <li><a class="button2" id="contact" href="contact.html">Contact Us</a></li>
-            </ul>      
+            <div class="navigation2">
+                <a class="button2" id="home" href="home.html">Home</a>
+                <a class="button2" id="cardapio" href="menu.html">Menu</a>
+                <a class="button2" id="contact" href="contact.html">Contact Us</a>
+                <div class="filters">
+                    <a class="filter" id="salads" href="#">Salads</a>
+                    <a class="filter" id="sides" href="#">Sides</a>
+                    <a class="filter" id="meats" href="#">Meats</a>
+                    <a class="filter" id="fishes" href="#">Fish</a>
+                    <a class="filter" id="classics" href="#">Classic</a>
+                    <a class="filter" id="drinks" href="#">Drinks</a>
+                    <a class="filter" id="desserts" href="#">Desserts</a>
+                </div>
+            </div>    
         </nav>
     </header>
     <main>

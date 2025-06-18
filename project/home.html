@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coelho's Restaurant - Silas Gomes</title>
+    <title>Odessa Restaurant - Silas Gomes</title>
     <meta name="description" content="WDD 131 – Dynamic Web Fundamentals - Silas Gomes - Project: This is the home page for a website of a restaurant. The project will contain 3 pages">
     <meta name="author"  content="silas gomes neto">
     <!---fonts-->
@@ -14,7 +14,6 @@
     <!--the order matters-->
     <!--js and css-->
     <link rel="stylesheet" href="coelho.css">
-    <script src="coelho.js" defer></script>
 </head>
 <body>
     <header>
@@ -33,5 +32,13 @@
         <p id="foot">&copy; <span id="year"></span> | Silas Gomes | Brazil</p>
         <p id="date">Last update:&nbsp;<span id="lastModified"></span></p>
     </footer>
+    <script>
+        //code for the footer//
+        const today = new Date();
+        const yearSpan = document.querySelector("#year");
+        yearSpan.textContent = new Date().getFullYear();
+        
+        document.getElementById("lastModified").textContent = document.lastModified;
+    </script>
 </body>
 </html>

@@ -100,7 +100,8 @@ h3 {
     font-family: var(--roboto);
 }
 
-p {
+p, label, input, input[type="date"],
+ input[type="submit"], textarea {
     font-size: var(--p);
     font-family: var(--roboto);
 }
@@ -115,9 +116,6 @@ a {
     border-radius: 6px;
     font-family: var(--roboto);
     font-size: var(--h2);
-}
-
-li {
     text-align: center;
 }
 
@@ -125,7 +123,6 @@ section {
     background-color:rgba(255, 255, 255, 0.596);
     display: flex;
     flex-flow: column;
-    position: start;
     justify-self: center;
     border-radius: 6px;
     width: 80%;
@@ -141,6 +138,31 @@ form, #contactinfo {
     border-radius: 6px;
 }
 
+textarea {
+    display: block;
+    width: 90%;
+    margin: 10px;
+    border-radius: 6px;
+    justify-self: center;
+}
+
+input[type="submit"] {
+    width: 40%;
+    height: auto;
+    padding: 2% 2%;
+    background-color: var(--color1);
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: block;
+    text-align: center;
+    justify-self: center;
+    color:rgb(255, 255, 255);
+}
+
+hr {
+    margin: 1rem;
+}
+
 /** blocks **/
 
 .content {
@@ -150,7 +172,7 @@ form, #contactinfo {
     gap: 5px;
 }
 
-.navigation, .navigation2 {
+.navigation, .navigation2, .navigation3 {
     list-style: none;
     display: flex;
     flex-flow: wrap column;
@@ -160,12 +182,23 @@ form, #contactinfo {
 .navigation a:hover,
 .avigation a:active, 
 .navigation2 a:hover,
-.navigation2 a:active {
+.navigation2 a:active,
+.navigation3 a:hover,
+.navigation3 a:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
     color: var(--color1);
     background-color:rgb(255, 255, 255);
+    transition: background-color 0.5s ease;
+    transition-delay: 0s;
 }
 
 .navigation2 {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.navigation3 {
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr;
 }
@@ -192,6 +225,34 @@ form, #contactinfo {
     display: inline-block;
     width: 90%;
     justify-self: center;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+.infobox {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.filters {
+    display: flex;
+    flex-flow: wrap row;
+    grid-column: 1 /span 3;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.filter {
+    font-size: 1rem;
+    justify-self: center;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 #imgmenu {
@@ -217,7 +278,6 @@ form, #contactinfo {
 }
 
 #title {
-    position: start;
     font-size: 3rem;
 }
 
@@ -240,18 +300,38 @@ form, #contactinfo {
     font-size: var(--b);
 }
 
-#sociallinks img, .infobox img {
-    width: 3%;
+.infobox img {
+    width: 6%;
+}
+
+#sociallinks img {
+    width: 10%;
     height: auto;
 }
 
 #contactsection {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 70%;
+}
+
+#map {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    justify-self: center;
+}
+
+#submited {
+    display: flex;
+    flex-flow: column;
+    color:rgb(255, 255, 255);
+    padding: 15px;
 }
 
 @media screen and (min-width: 500px) {
     .dishes {
-        grid-template-columns: 1fr 1fr 1fr;s
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }

@@ -205,7 +205,7 @@ input[type="submit"]:active {
 
 .dishes {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     padding: 10px;
 }
@@ -278,7 +278,7 @@ input[type="submit"]:active {
 }
 
 #title {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 #logo {
@@ -330,8 +330,94 @@ input[type="submit"]:active {
     padding: 15px;
 }
 
-@media screen and (min-width: 500px) {
+#refer {
+    display: block;
+    margin: 20px;
+    font-size: small;
+    padding: 1%;
+    align-self: center;
+}
+
+#final {
+    color: white;
+    gap: 5px;
+}
+
+#istock {
+    font-size: 0.75rem;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .button {
+        font-size: 0.75rem;
+    }
+
     .dishes {
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-flow: wrap column;
+        align-items: center;
+    }
+
+    #menu {
+        grid-template: 0.5fr / 1fr; 
+        gap: 10px;
+    }
+
+    #humbutton {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #title {
+        font-size: 1.5rem;
+        align-self: center;
+        text-align: center;
+    }
+
+    .button2 {
+        font-size: 1.25rem;
+    }
+
+    .navigation2 {
+        display: none;
+    }
+
+    #hidden-menu {
+        display: flex;
+    }
+
+    #logo {
+        width: 35%;
+        height: auto;
+        grid-row: 1;
+    }
+
+    /** menu **/
+
+    #hidden-menu::before {
+        content: "≡";
+        color: white;
+        font-size: 3rem;
+        font-family: var(--roboto);
+        justify-self: center;
+        align-self: center;
+    }
+
+    #hidden-menu.show::before {
+        content: "x";
+        font-family: var(--roboto);
+        font-size: 3rem;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .show {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
     }
 }

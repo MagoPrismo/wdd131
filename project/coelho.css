@@ -281,7 +281,7 @@ input[type="submit"]:active {
     font-size: 2rem;
 }
 
-#logo {
+#logo, #logo1 {
     width: 125px;
     height: auto;
     border-radius: 6px;
@@ -400,6 +400,10 @@ input[type="submit"]:active {
         width: 100%;
         height: auto;
         grid-row: 1;
+    }
+
+    #logo1 {
+        width: 50%;
     }
 
     #contactsection {

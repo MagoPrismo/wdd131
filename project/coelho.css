@@ -353,7 +353,8 @@ input[type="submit"]:active {
 
 @media screen and (max-width: 500px) {
     .button {
-        font-size: 0.75rem;
+        font-size: 1.25rem;
+        width: 50%;
     }
 
     .dishes {
@@ -363,7 +364,7 @@ input[type="submit"]:active {
     }
 
     #menu {
-        grid-template: 0.5fr / 1fr; 
+        grid-template-rows: 1fr; 
         gap: 10px;
     }
 
@@ -391,7 +392,7 @@ input[type="submit"]:active {
     }
 
     #logo {
-        width: 35%;
+        width: 100%;
         height: auto;
         grid-row: 1;
     }

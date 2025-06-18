@@ -222,7 +222,7 @@ input[type="submit"]:active {
 }
 
 .button2 {
-    display: inline-block;
+    display: block;
     width: 90%;
     justify-self: center;
     text-align: center;
@@ -381,9 +381,14 @@ input[type="submit"]:active {
 
     .button2 {
         font-size: 1.25rem;
+        text-align: left;
     }
 
-    .navigation2 {
+    .filters {
+        justify-content: start;
+    }
+
+    .navigation2, .navigation3 {
         display: none;
     }
 
@@ -395,6 +400,12 @@ input[type="submit"]:active {
         width: 100%;
         height: auto;
         grid-row: 1;
+    }
+
+    #contactsection {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
     }
 
     /** menu **/
